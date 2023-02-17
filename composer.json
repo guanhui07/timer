@@ -1,0 +1,28 @@
+{
+  "name": "guanhui07/timer",
+  "description": "php timer",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "guanhui07",
+      "email": "guanhui07@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.4",
+    "ext-pcntl": "*",
+    "ext-posix": "*",
+    "ext-zend-opcache": "*",
+    "ext-bcmath": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Guanhui07\\Timer\\": "./src"
+    }
+  },
+  "suggest": {
+    "ext-event": "For better performance. "
+  }
+}
